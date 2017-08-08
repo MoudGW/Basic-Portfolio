@@ -47,13 +47,7 @@ body{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-H2{
-	text-align: center;
-	color: #03A9F4;
-	font-family: monospace;
-	font-size: 2em;
-}
-H3{
+H3,H2{
 	text-align: center;
 	color: #03A9F4;
 	font-family: monospace;
@@ -77,6 +71,16 @@ H3{
 {
 	float: right;
 	margin-right: 100px;
+}
+#baron{
+    padding-bottom: 22px;
+    background-color: gray;
+    color: white;
+    padding-top: 9px;
+    padding-left: 14px;
+    padding-right: 22px;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 30px;
 }
 #body{
 	background-image: url("wall.png");
@@ -128,4 +132,37 @@ button{
     color: #fff;
     border-radius: 6px;
    box-shadow: 2px 2px 1px #a6c1ce;
+}
+@media screen and (max-width:910px){
+
+
+#name{
+	font-size:medium;
+}
+.bar{
+	font-size:medium;
+}
+p{
+	color: #715f5f;
+	font-size: medium;
+	margin: 10px;
+    text-align: justify;
+}
+H2,H3{
+	font-size: 1em; 
+}
+.imgC{
+	zoom:15%;
+	float: left;
+}
+.imgP{
+	zoom:20%;
+}
+#left{
+	width: auto;
+}
+#right{
+	float: left;
+	margin-left: 58px;
+}
 }

@@ -26,9 +26,7 @@
     margin-bottom: 30px;
     border-radius: 8px;
 }
-body{
-	margin: 0px;
-}
+
 #right{
 	float: right;
 	background-color: white;
@@ -52,7 +50,6 @@ H3,H2{
 	color: #03A9F4;
 	font-family: monospace;
 	font-size: 2em;
-
 }
 #name {
     font-family: 'Ubuntu', sans-serif;
@@ -73,6 +70,9 @@ H3,H2{
 	margin-right: 100px;
 }
 #baron{
+	font-size: 22px;
+    color: gray;
+	text-decoration: blink;
     padding-bottom: 22px;
     background-color: gray;
     color: white;
@@ -82,21 +82,30 @@ H3,H2{
     border-top-left-radius: 33px;
     border-bottom-right-radius: 30px;
 }
-#body{
-	background-image: url("wall.png");
-    width: inherit;
-    height: 700px;
-    border-top: solid 1px gray;
-    border-bottom: solid 5px #03A9F4; 
-    margin-bottom: 50px;
-
-}
-.bar{
+.baroff{
 	font-size: 22px;
     color: gray;
 	text-decoration: blink;
+	padding-bottom: 22px;
+    background-color: #E1E1E1;
+    color: white;
+    padding-top: 9px;
+    padding-left: 14px;
+    padding-right: 22px;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 30px;
 }
-p{
+.baroff:hover {
+    background-color: black;
+}
+#body{
+	background-image: url("wall.png");
+    width: inherit;
+    height: 800px;
+    border-top: solid 1px gray;
+    border-bottom: solid 5px #03A9F4; 
+}
+p,details{ 
 	color: black;
 	font-size: 22px;
 	margin: 10px;
@@ -131,7 +140,7 @@ button{
     background-color: #03A9F4;
     color: #fff;
     border-radius: 6px;
-   box-shadow: 2px 2px 1px #a6c1ce;
+    box-shadow: 2px 2px 1px #a6c1ce;
 }
 @media screen and (max-width:910px){
 
@@ -160,9 +169,31 @@ H2,H3{
 }
 #left{
 	width: auto;
+    
 }
 #right{
 	float: left;
 	margin-left: 58px;
+}
+#baron,.baroff{
+	font-size: 15px;
+    color: gray;
+	text-decoration: blink;
+	padding-bottom: 16px;
+    color: white;
+    padding-top: 6px;
+    padding-left: 14px;
+    padding-right: 16px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 22px;
+}
+#lbar{
+    float: left;
+    margin-top: 8px;
+    margin-left: 57px;
+}
+#head{
+	height: 91px;
+    display: inline-grid;
 }
 }

@@ -26,6 +26,24 @@
     margin-bottom: 30px;
     border-radius: 8px;
 }
+.imgP {
+    padding-left: 110px;
+}
+.hiden {
+    position: relative;
+    background: aliceblue;
+    padding: 20px;
+    position: absolute;
+    width: 312px;
+    margin-top: 75px;
+    border: solid;
+    border-color: cornflowerblue;
+    font: -webkit-small-control;
+    display: none;
+}
+#left>div:hover .hiden{
+    display: block;
+}
 
 #right{
 	float: right;
@@ -195,5 +213,9 @@ H2,H3{
 #head{
 	height: 91px;
     display: inline-grid;
+}
+body{
+ height: contain;   
+
 }
 }
